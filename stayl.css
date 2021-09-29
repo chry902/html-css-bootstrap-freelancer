@@ -19,7 +19,9 @@ height: 400px;
     background-color:  rgba(44, 62, 80, 1);
 }
 
-
+/************************
+          TITOLO
+*************************/
 .img_contain{
     display: flex;
     height: 60%;
@@ -38,7 +40,7 @@ height: 400px;
     height: 40%;
     background-color: rgb(223, 109, 223);
 }
-.row{
+.row1{
     height: 33%;
 }
 .titolo{
@@ -49,4 +51,52 @@ height: 400px;
 }
 .intestazione{
     background-color: rgb(71, 5, 71);
+}
+/************************
+          PROFILO
+*************************/
+.profi{
+    height: 20%;
+}
+.card{
+    height: 80%;
+}
+.col-4{
+    width: 250px;
+    
+}
+/************************
+          ABOUT
+*************************/          
+.about> div{
+    height: 33.33%;
+}
+.about_top{
+    background-color: rgba(100, 148, 237, 0.349);
+}   
+.about_midle{
+    background-color: rgba(143, 179, 245, 0.294);
+}
+.about_bottom{
+    background-color: rgba(184, 207, 250, 0.356);
+}
+/************************
+          CONTACT ME
+*************************/ 
+.contact_me> div{
+    height: 33.33%;
+}
+/************************
+          footer
+*************************/
+.color_f_top{
+    background-color: rgba(58, 84, 109, 1);
+    height: 70%;
+}
+.color_f_bottom{
+    height: 30%;
+    background-color: rgba(44, 62, 80, 1);
+}
+footer>div{
+    justify-content: center;
 }
