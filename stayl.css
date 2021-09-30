@@ -30,6 +30,9 @@ li>a{
     color: white;
     
 }
+.flex_contain{
+    display: flex;
+}
 
 /************************
           TITOLO
@@ -54,53 +57,100 @@ li>a{
 }
 .stella{
     color: white;
-    text-align: center;
+    display: flex;
 }
 .icona{
-    height: 50px;
+    
 }
 .stella>div{
     float: left;
+    
 }
 .barre{
-    width: 10%;
+    width: 8%;
     background-color: white;
-    height: 2px;
+    height: 3px;
     border-radius: 50px;
+    margin: 0 2rem 0;
 }
-.intestazione{
-    background-color: rgb(71, 5, 71);
+
+.intestazioni{
+    text-align: center;
+    color: rgb(255, 255, 255);
 }
 /************************
           PROFILO
 *************************/
-.profi{
-    height: 20%;
-}
-.card{
-    height: 80%;
-}
 
+.portfolio{
+    padding-top: 3rem;
+}
+.bg_color{
+background-color: black;
+}
+.image_card{
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.rounded{
+    width: 15%;
+    margin: 0.3rem;
+    
+}
 /************************
           ABOUT
 *************************/          
-.about> div{
-    height: 33.33%;
-}
+
 .about_top{
-    background-color: rgba(100, 148, 237, 0.349);
+   padding-top: 3rem; 
 }   
 .about_midle{
-    background-color: rgba(143, 179, 245, 0.294);
+    padding-top: 1rem;
 }
 .about_bottom{
-    background-color: rgba(184, 207, 250, 0.356);
+    padding:3rem 0;
+    justify-content: center;
+}
+.col-4>p{
+    font-size: 80%;
+    color: white;
+}
+.btn-secondary{
+    background-color: rgba(255, 255, 255, 0);
+    border-color: white;
+    
+}
+.about_bottom> button{
+    width: 15%;
+    
+}
+button>span{
+    font-size: 90%;
 }
 /************************
           CONTACT ME
 *************************/ 
 .contact_me> div{
     height: 33.33%;
+}
+.border_top{
+    border-top: none;
+}
+.border_bottom{
+    padding-bottom: 7rem;
+}
+.list-group-item{
+    border-left: none;
+    border-right: none;
+    font-size: 10px;
+}
+.contact_me_button{
+    padding-top: 1rem;
+    
+}
+.btn-primary{
+    background-color: rgba(26, 188, 156, 1);
+    border-color: rgba(26, 188, 156, 1);
 }
 /************************
           footer
@@ -113,6 +163,16 @@ li>a{
     height: 30%;
     background-color: rgba(44, 62, 80, 1);
 }
-footer>div{
-    justify-content: center;
+.color_f_top>.col-4{
+    padding-top: 3rem;
+}
+.cerchio{
+    width: 10%;
+    height: 10%;
+    border: white;
+}
+.col-4>span{
+    color: white;
+    text-align: center;
+    
 }
