@@ -1,4 +1,7 @@
-
+header{
+    color: white;
+    background-color:  rgba(44, 62, 80, 1);
+}
 .head, .about{
     background-color: rgba(26, 188, 156, 1);
 }
@@ -12,7 +15,7 @@ height: 400px;
     
 }
 .debug_about{
-    height: 300px;
+   min-height: 300px;
 }
 .debug_footer{
     height: 200px;
@@ -22,18 +25,11 @@ height: 400px;
 /************************
           TITOLO
 *************************/
-.img_contain{
-    display: flex;
-    height: 60%;
-    background-color: thistle;
-    justify-content: center;
-    align-items: flex-end;
-}
+
 .img{
-    width: 100px;
-    height: 100px;
+    width: 15%;
     background-color: rgb(224, 9, 224);
-    
+    padding-top: 2rem;
 }
 .title{
     width: 100%;
@@ -61,10 +57,7 @@ height: 400px;
 .card{
     height: 80%;
 }
-.col-4{
-    width: 250px;
-    
-}
+
 /************************
           ABOUT
 *************************/          
